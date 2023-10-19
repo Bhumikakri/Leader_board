@@ -7,99 +7,63 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-
-
     <div class="container">
-        <div class="main">
-            <h1>Yummycakes
-            </h1>
-            <div class="products">
-                <div id="show" class="show-list">
-                    <h3 class="name">Sweet Red Velvet Cake</h3>
-                    <h4 class="rs">Rs100</h4>
-                    <div class="buttons">
-                        <button class="btnminus">-</button>
-                        <span id="quantity">0</span>
-                        <button class="btnplus">+</button>
-                    </div>
-                </div>
-                <div id="show" class="show-list">
-                    <h3 class="name">Yummy Black-Forest Cake</h3>
-                        <h4 class="rs">Rs200</h4>
-                        <div class="buttons">
-                            <button class="btnminus">-</button>
-                            <span id="quantity">0</span>
-                            <button class="btnplus">+</button>
-                        </div>
-                </div>
-                <div id="show" class="show-list">
-                    <h3 class="name">Chocolate Cake</h3>
-                        <h4 class="rs">Rs200</h4>
-                        <div class="buttons">
-                            <button class="btnminus">-</button>
-                            <span id="quantity">0</span>
-                            <button class="btnplus">+</button>
-                        </div>
-                </div>
-                <!-- <table style="width: 100%; height: 100%; row-gap: 1rem;">
-                        <tr id="show">
-                            <td class="name">Sweet Red Velvet Cake</td>
-                            <td class="rs">Rs100</td>
-                            <td ><div class="buttons"><button class="btnminus">-</button><span>0</span><button class="btnplus">+</button></div></td>
-                        </tr>
-                        <tr>
-                            <td class="name">Yummy Black-Forest Cake</td>
-                            <td class="rs">Rs200</td>
-                            <td ><div class="buttons"><button class="btnminus">-</button><span>0</span><button  class="btnplus">+</button></div></td>
-                        </tr>
-                        <tr>
-                            <td class="name">Chocolate Cake</td>
-                            <td class="rs">Rs300</td>
-                            <td ><div class="buttons"><button class="btnminus">-</button><span>0</span><button  class="btnplus">+</button></div></td>
-                        </tr>
-                        <tr>
-                            <td class="name">Vanilla cake</td>
-                            <td class="rs">Rs100</td>
-                            <td ><div class="buttons"><button class="btnminus">-</button><span>0</span><button  class="btnplus">+</button></div></td>
-                        </tr>
-                        <tr>
-                            <td class="name">Strawberry cake</td>
-                            <td class="rs">Rs200</td>
-                            <td ><div class="buttons"><button class="btnminus">-</button><span>0</span><button  class="btnplus">+</button></div></td>
-                        </tr>
-                        <tr>
-                            <td class="name">Kitkat cake</td>
-                            <td class="rs">Rs300</td>
-                            <td ><div class="buttons"><button class="btnminus">-</button><span>0</span><button  class="btnplus">+</button></div></td>
-                        </tr>
-                        <tr>
-                            <td class="name">Pineapple Cake</td>
-                            <td class="rs">Rs100</td>
-                            <td ><div class="buttons"><button class="btnminus">-</button><span>0</span><button  class="btnplus">+</button></div></td>
-                        </tr>
-                </table> -->
+        <h1>Leader Board</h1>
+        <form action="" >
+            <input type="text" placeholder="First Name" id="input1">
+            <input type="text" placeholder="Last Name" id="input2">
+            <input type="text" placeholder="Country" id="input3">
+            <input type="number" placeholder="0" id="input4">
+            <button class="mainbutton">Add Player</button>
+        </form>
+        <p id="few_text">All fields are required</p>
+        
+        <div class="main_container">
+            <div class="data1">
+               <div class="names">
+                <span class="name">Bhumika Kumari</span>
+                <span class="time">2/nov/2002</span>
+               </div> 
+               <span class="country">India</span>
+               <span class="playerscore">50</span>
+               <div class="buttons">
+                <button>🗑</button>
+                <button>+5</button>
+                <button>-5</button>
+               </div>
             </div>
-        </div>
-        <div class="cart">
-            <h1>Cart</h1>
-            <div class="buy" id="buy">
 
+            <div class="data1">
+                <div class="names">
+                 <span class="name">Pooja Kumari</span>
+                 <span class="time">1/jun/2000</span>
+                </div> 
+                <span class="country">India</span>
+                <span class="playerscore">87</span>
+                <div class="buttons">
+                 <button>🗑</button>
+                 <button>+5</button>
+                 <button>-5</button>
+                </div>
             </div>
-            <div class="total">
-                Total:<span>   0</span>
-            </div>
-           
 
+            <div class="data1">
+                <div class="names">
+                 <span class="name">Pooja Kumari</span>
+                 <span class="time">1/jun/2000</span>
+                </div> 
+                <span class="country">India</span>
+                <span class="playerscore">30</span>
+                <div class="buttons">
+                 <button>🗑</button>
+                 <button>+5</button>
+                 <button>-5</button>
+                </div>
+            </div>
+            
+            
         </div>
     </div>
-
-    <!-- <div id="Ball"></div> -->
-    <!-- <button id="btn1">Change Background</button> -->
-    <!-- <button id="btn2" style="font-size: 12px;">Change Background Image</button> -->
-    <!-- <div id="colorpad" style="width:300px;height:300px;background-color:#fbfbfb">
-    </div> -->
-    <!-- <button onclick="setRandomColor()">Random Color</button> -->
     <script src="./script.js"></script>
 </body>
 </html>
